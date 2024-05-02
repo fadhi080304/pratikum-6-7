@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - Frontend</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Animasi Lottie -->
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+    </header>
+    <section id="hero" class="d-flex align-items-center pt-lg-5">
+        <div class="container pt-lg-5">
+          <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+              <!-- Judul dan Deskripsi Hero -->
+              <h1>Hero ini dari Papua</h1>
+              <h2>Papua Selatan</h2>
+              <!-- Tombol Get Started -->
+              <div class="d-flex justify-content-center justify-content-lg-start pt-3">
+                <a href="#about" class="btn-get-started scrollto btn btn-primary">Get Started</a>
+              </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-png">
+              <!-- Animasi Lottie -->
+              <dotlottie-player src="https://lottie.host/e7769fde-537a-41de-af5f-ce52ae888a1e/DGyopYn8Mk.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Animasi Tambahan -->
+    <section id="additional-animation" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- Tambahkan animasi tambahan di sini -->
+                    <dotlottie-player src="URL_ANIMASI_TAMBAHAN" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Deskripsi atau penjelasan animasi tambahan -->
+                    <h3>Animasi Tambahan</h3>
+                    <p>Deskripsi singkat tentang animasi tambahan yang menarik perhatian pengguna.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni atau Review -->
+    <section id="testimonial" class="bg-light pt-5 pb-5">
+        <div class="container">
+            <h2 class="text-center">Testimonial</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <!-- Gambar atau Avatar Testimoni -->
+                    <img src="URL_GAMBAR_TESTIMONI" alt="Testimonial" class="img-fluid">
+                </div>
+                <div class="col-lg-8">
+                    <!-- Kutipan atau Review Testimoni -->
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"Kutipan atau review dari pelanggan yang puas dengan produk atau layanan Anda."</p>
+                        <footer class="blockquote-footer">Nama Pelanggan</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulir Kontak -->
+    <section id="contact" class="pt-5 pb-5">
+        <div class="container">
+            <h2 class="text-center">Hubungi Kami</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- Formulir Kontak -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="nama" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="nama">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Informasi Kontak Tambahan -->
+                    <h4>Informasi Kontak</h4>
+                    <p>Alamat: Alamat Perusahaan</p>
+                    <p>Email: info@example.com</p>
+                    <p>Telepon: 123-456-789</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light pt-3 pb-3">
+        <div class="container">
+            <div class="text-center">
+                &copy; 2024 Frontend Company. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
